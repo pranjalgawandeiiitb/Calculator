@@ -1,3 +1,3 @@
 FROM openjdk:11
 WORKDIR /app
-COPY target/Calculator-1.0-SNAPSHOT.jar /app/
+COPY target/ScientificCalculator-1.0-SNAPSHOT.jar /app/
