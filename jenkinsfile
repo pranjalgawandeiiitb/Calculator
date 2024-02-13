@@ -16,6 +16,22 @@ pipeline {
             }
         }
 
+        stage('Build') {
+                    steps {
+                        dir('/mnt/c/Users/User/Desktop/minispe') {
+                            sh 'mvn clean package'
+                        }
+                    }
+                }
+
+                stage('Run Tests') {
+                    steps {
+                        dir('/mnt/c/Users/User/Desktop/minispe') {
+                            sh 'mvn test'
+                        }
+                    }
+                }
+
         stage('Build Docker Image') {
             steps {
                 script {
