@@ -19,7 +19,7 @@ pipeline {
         stage('Build') {
                     steps {
                         dir('/mnt/d/IIITB MTech/Mini project/ScientificCalculator') {
-                            sh 'mvn clean package'
+                            sh 'mvn package'
                         }
                     }
                 }
@@ -33,13 +33,14 @@ pipeline {
                 }
 
         stage('Build Docker Image') {
-            steps {
-                script {
-                    // Build Docker image
-                    docker.build("${DOCKER_IMAGE_NAME}", '.')
+                    steps {
+                        dir('/mnt/d/IIITB MTech/Mini project/ScientificCalculator') {
+                            script {
+                                docker.build("${DOCKER_IMAGE_NAME}", '.')
+                            }
+                        }
+                    }
                 }
-            }
-        }
 
         stage('Push Docker Images') {
             steps {
