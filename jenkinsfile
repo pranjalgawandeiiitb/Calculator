@@ -18,7 +18,7 @@ pipeline {
 
         stage('Build') {
                     steps {
-                        dir('/mnt/d/IIITB MTech/Mini project/Calculator') {
+                        dir('/mnt/d/IIITB MTech/Mini project/ScientificCalculator') {
                             sh 'mvn clean package'
                         }
                     }
@@ -26,7 +26,7 @@ pipeline {
 
                 stage('Run Tests') {
                     steps {
-                        dir('/mnt/d/IIITB MTech/Mini project/Calculator') {
+                        dir('/mnt/d/IIITB MTech/Mini project/ScientificCalculator') {
                             sh 'mvn test'
                         }
                     }
