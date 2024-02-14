@@ -58,7 +58,7 @@ public class Main {
     }
 
     public static int calculateFactorial(int n) {
-        if (n == 0) {
+        if (n == 1) {
             return 1;
         }
 
