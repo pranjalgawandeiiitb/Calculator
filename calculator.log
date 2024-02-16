@@ -1,0 +1,57 @@
+2024-02-16 17:23:16 [main] INFO  org.example.Main - Executing squareRoot function! Result: 5.0 for input: 25.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing squareRoot function! Result: 2.0 for input: 4.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing squareRoot function! Result: 3.0 for input: 9.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing squareRoot function! Result: 4.0 for input: 16.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing squareRoot function! Result: 5.0 for input: 25.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing factorial function! Result: 2 for input: 2
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing factorial function! Result: 6 for input: 3
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing factorial function! Result: 24 for input: 4
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing factorial function! Result: 120 for input: 5
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing powerFunction! Result: 8.0 for input: 2.0 and 3.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing powerFunction! Result: 16.0 for input: 2.0 and 4.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing powerFunction! Result: 32.0 for input: 2.0 and 5.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing powerFunction! Result: 9.0 for input: 3.0 and 2.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing powerFunction! Result: 27.0 for input: 3.0 and 3.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 0.0 for input: 1.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 0.6931471805599453 for input: 2.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.0986122886681098 for input: 3.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.3862943611198906 for input: 4.0
+2024-02-16 17:28:59 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.6094379124341003 for input: 5.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing squareRoot function! Result: 2.0 for input: 4.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing squareRoot function! Result: 3.0 for input: 9.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing squareRoot function! Result: 4.0 for input: 16.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing squareRoot function! Result: 5.0 for input: 25.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing factorial function! Result: 2 for input: 2
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing factorial function! Result: 6 for input: 3
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing factorial function! Result: 24 for input: 4
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing factorial function! Result: 120 for input: 5
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing powerFunction! Result: 8.0 for input: 2.0 and 3.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing powerFunction! Result: 16.0 for input: 2.0 and 4.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing powerFunction! Result: 32.0 for input: 2.0 and 5.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing powerFunction! Result: 9.0 for input: 3.0 and 2.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing powerFunction! Result: 27.0 for input: 3.0 and 3.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 0.0 for input: 1.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 0.6931471805599453 for input: 2.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.0986122886681098 for input: 3.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.3862943611198906 for input: 4.0
+2024-02-16 17:29:12 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.6094379124341003 for input: 5.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing squareRoot function! Result: 2.0 for input: 4.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing squareRoot function! Result: 3.0 for input: 9.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing squareRoot function! Result: 4.0 for input: 16.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing squareRoot function! Result: 5.0 for input: 25.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing factorial function! Result: 2 for input: 2
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing factorial function! Result: 6 for input: 3
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing factorial function! Result: 24 for input: 4
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing factorial function! Result: 120 for input: 5
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing powerFunction! Result: 8.0 for input: 2.0 and 3.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing powerFunction! Result: 16.0 for input: 2.0 and 4.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing powerFunction! Result: 32.0 for input: 2.0 and 5.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing powerFunction! Result: 9.0 for input: 3.0 and 2.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing powerFunction! Result: 27.0 for input: 3.0 and 3.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 0.0 for input: 1.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 0.6931471805599453 for input: 2.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.0986122886681098 for input: 3.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.3862943611198906 for input: 4.0
+2024-02-16 17:41:29 [main] INFO  org.example.Main - Executing naturalLogarithm function! Result: 1.6094379124341003 for input: 5.0
+2024-02-16 17:42:31 [main] ERROR org.example.Main - Invalid choice!
+2024-02-16 17:42:34 [main] INFO  org.example.Main - Exiting the program!
