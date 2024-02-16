@@ -1,8 +1,11 @@
 package org.example;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.Scanner;
 
 public class Main {
+    private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
 
@@ -46,19 +49,23 @@ public class Main {
                     break;
                 case 5:
                     System.out.println("\nExiting...");
+                    logger.info("Exiting the program!");
                     System.exit(0);
                 default:
+                    logger.error("Invalid choice!");
                     System.out.println("\nInvalid choice! Please enter a number between 1 and 5.");
             }
         }
     }
 
     public static double calculateSquareRoot(double number) {
-        return Math.sqrt(number);
+        double ans = Math.sqrt(number);
+        logger.info("Executing squareRoot function! Result: " + ans + " for input: " + number);
+        return ans  ;
     }
 
     public static int calculateFactorial(int n) {
-        if (n == 1) {
+        if (n == 0 || n == 1) {
             return 1;
         }
 
@@ -66,14 +73,19 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             ans *= i;
         }
+        logger.info("Executing factorial function! Result: " + ans + " for input: " + n);
         return ans;
     }
 
     public static double calculateNaturalLogarithm(double number) {
-        return Math.log(number);
+        double ans = Math.log(number);
+        logger.info("Executing naturalLogarithm function! Result: " + ans + " for input: " + number);
+        return ans;
     }
 
     public static double calculatePowerFunction(double base, double exponent) {
-        return Math.pow(base, exponent);
+        double ans = Math.pow(base, exponent);
+        logger.info("Executing powerFunction! Result: " + ans + " for input: " + base + " and " + exponent);
+        return ans;
     }
 }

@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE_NAME = 'pranjalgawande/scientific-calculator'
-        GITHUB_REPO_URL = 'https://github.com/pranjalgawandeiiitb/Calculator.git'
+        GITHUB_REPO_URL = 'https://github.com/pranjalgawandeiiitb/ScientificCalculator.git'
     }
 
     stages {
