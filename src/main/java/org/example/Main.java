@@ -57,13 +57,11 @@ public class Main {
             }
         }
     }
-
     public static double calculateSquareRoot(double number) {
         double ans = Math.sqrt(number);
         logger.info("Executing squareRoot function! Result: " + ans + " for input: " + number);
         return ans  ;
     }
-
     public static int calculateFactorial(int n) {
         if (n == 0 || n == 1) {
             return 1;
@@ -76,13 +74,11 @@ public class Main {
         logger.info("Executing factorial function! Result: " + ans + " for input: " + n);
         return ans;
     }
-
     public static double calculateNaturalLogarithm(double number) {
         double ans = Math.log(number);
         logger.info("Executing naturalLogarithm function! Result: " + ans + " for input: " + number);
         return ans;
     }
-
     public static double calculatePowerFunction(double base, double exponent) {
         double ans = Math.pow(base, exponent);
         logger.info("Executing powerFunction! Result: " + ans + " for input: " + base + " and " + exponent);

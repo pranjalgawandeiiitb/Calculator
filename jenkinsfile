@@ -7,10 +7,9 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
+        stage('Clone Repository') {
             steps {
                 script {
-                    // Checkout the code from the GitHub repository
                     git branch: 'master', url: "${GITHUB_REPO_URL}"
                 }
             }
